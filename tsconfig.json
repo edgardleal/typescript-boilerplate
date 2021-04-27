@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "noImplicitAny": true,
+      "strictNullChecks": true,
+      "outDir": "dist",
+      "esModuleInterop": true
+    },
+    "typeRoots": [
+      "./"
+    ],
+    "include": ["src/**/*.ts", "index.ts"],
+    "exclude": ["node_modules"],
+    "compileOnSave": true,
+    "buildOnSave": true
+  }
+  
