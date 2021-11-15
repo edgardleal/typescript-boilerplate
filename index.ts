@@ -3,6 +3,8 @@
  *
  * @module index.ts
  */
+import Logger from './src/logger';
+
 (async () => {
-  console.log('Done.'); // eslint-disable-line
+  Logger.info('Done.');
 })();
