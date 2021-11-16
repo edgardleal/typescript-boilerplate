@@ -1,5 +1,11 @@
 [
   {
+    "action": "remove",
+    "files": [
+      "typescript-boilerplate-date"
+    ]
+  },
+  {
     "action": "clone",
     "src": "edgardleal/typescript-boilerplate-date"
   },
@@ -9,10 +15,10 @@
   },
   {
     "action": "clone",
-    "src": "edgardleal/typescript-boilerplate-google-http"
+    "src": "edgardleal/typescript-boilerplate-http"
   },
   {
     "action": "clone",
-    "src": "edgardleal/typescript-boilerplate-google-file"
+    "src": "edgardleal/typescript-boilerplate-file"
   }
 ]
