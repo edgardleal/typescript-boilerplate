@@ -2,7 +2,10 @@
   {
     "action": "remove",
     "files": [
-      "typescript-boilerplate-date"
+      "typescript-boilerplate-google-sheet",
+      "typescript-boilerplate-http",
+      "typescript-boilerplate-date",
+      "typescript-boilerplate-file"
     ]
   },
   {

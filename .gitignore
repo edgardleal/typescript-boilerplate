@@ -4,3 +4,5 @@ coverage
 .DS_Store
 src/date
 src/http
+src/file
+src/spread-sheet

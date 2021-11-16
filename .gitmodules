@@ -4,3 +4,9 @@
 [submodule "typescript-boilerplate-http"]
 	path = typescript-boilerplate-http
 	url = git@github.com:edgardleal/typescript-boilerplate-http.git
+[submodule "typescript-boilerplate-google-sheet"]
+	path = typescript-boilerplate-google-sheet
+	url = git@github.com:edgardleal/typescript-boilerplate-google-sheet.git
+[submodule "typescript-boilerplate-file"]
+	path = typescript-boilerplate-file
+	url = git@github.com:edgardleal/typescript-boilerplate-file.git
