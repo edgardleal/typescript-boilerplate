@@ -2,5 +2,9 @@
   {
     "action": "clone",
     "src": "edgardleal/typescript-boilerplate-date"
+  },
+  {
+    "action": "clone",
+    "src": "edgardleal/typescript-boilerplate-google-sheet"
   }
 ]

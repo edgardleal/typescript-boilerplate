@@ -12,26 +12,26 @@ modules = $(wildcard node_modules/*/*.js)
 all: run
 
 node_modules/.last_lint: $(SOURCES)
-	yarn lint || npm run lint
-	touch node_modules/.last_lint
+	yarn lint
+	@touch $@
 
 lint: node_modules/.last_lint
 
 node_modules/.bin/tsc: package.json
 	yarn || npm i
-	touch node_modules/.bin/tsc
+	@touch $@
 
-run: dist/index.js lint
+run: dist/index.js
 	DEBUG=project* node dist/index.js
 
-dist/index.js: $(SOURCES) node_modules/.bin/tsc
+dist/index.js: $(SOURCES) node_modules/.last_lint node_modules/.bin/tsc coverage/index.html
 	./node_modules/.bin/tsc -p tsconfig.json
 
 build: dist/index.js
 
 node_modules/.bin/jest: package.json
 	yarn || npm i
-	touch node_modules/.bin/jest
+	@touch $@
 
 install: node_modules/.bin/jest
 
