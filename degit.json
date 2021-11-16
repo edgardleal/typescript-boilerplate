@@ -6,5 +6,13 @@
   {
     "action": "clone",
     "src": "edgardleal/typescript-boilerplate-google-sheet"
+  },
+  {
+    "action": "clone",
+    "src": "edgardleal/typescript-boilerplate-google-http"
+  },
+  {
+    "action": "clone",
+    "src": "edgardleal/typescript-boilerplate-google-file"
   }
 ]
