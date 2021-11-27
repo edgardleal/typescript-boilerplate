@@ -5,7 +5,11 @@
       "typescript-boilerplate-google-sheet",
       "typescript-boilerplate-http",
       "typescript-boilerplate-date",
-      "typescript-boilerplate-file"
+      "typescript-boilerplate-file",
+      "src/date",
+      "src/file",
+      "src/http",
+      "src/spread-sheet"
     ]
   },
   {
