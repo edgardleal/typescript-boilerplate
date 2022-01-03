@@ -1,18 +1,5 @@
 [
   {
-    "action": "remove",
-    "files": [
-      "typescript-boilerplate-google-sheet",
-      "typescript-boilerplate-http",
-      "typescript-boilerplate-date",
-      "typescript-boilerplate-file",
-      "src/date",
-      "src/file",
-      "src/http",
-      "src/spread-sheet"
-    ]
-  },
-  {
     "action": "clone",
     "src": "edgardleal/typescript-boilerplate-date"
   },
@@ -27,5 +14,18 @@
   {
     "action": "clone",
     "src": "edgardleal/typescript-boilerplate-file"
+  },
+  {
+    "action": "remove",
+    "files": [
+      "typescript-boilerplate-google-sheet",
+      "typescript-boilerplate-http",
+      "typescript-boilerplate-date",
+      "typescript-boilerplate-file",
+      "src/date",
+      "src/file",
+      "src/http",
+      "src/spread-sheet"
+    ]
   }
 ]
