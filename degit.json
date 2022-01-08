@@ -1,14 +1,1 @@
-[
-  {
-    "action": "clone",
-    "src": "edgardleal/typescript-boilerplate-date"
-  },
-  {
-    "action": "clone",
-    "src": "edgardleal/typescript-boilerplate-http"
-  },
-  {
-    "action": "clone",
-    "src": "edgardleal/typescript-boilerplate-file"
-  }
-]
+[ ]
