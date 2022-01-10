@@ -3,6 +3,10 @@
  *
  * @module index.ts
  */
+import * as sourceMapSupport from 'source-map-support';
+
+sourceMapSupport.install();
+
 import Logger from './src/logger';
 
 /**
