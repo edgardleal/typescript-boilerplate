@@ -5,6 +5,7 @@
   "license": "MIT",
   "scripts": {
     "test": "jest",
+    "build": "tsc",
     "lint": "eslint  './**/*.ts'"
   },
   "devDependencies": {
@@ -27,6 +28,7 @@
     "google-spreadsheet": "^3.0.11",
     "html-to-text": "^8.1.0",
     "languagedetect": "^2.0.0",
+    "nconf": "^0.11.3",
     "pino": "^7.2.0",
     "source-map-support": "^0.5.21"
   }
