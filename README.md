@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to ts-template 👋</h1>
+<h1 align="center">Welcome to {{ project }} 👋</h1>
 <p>
   <a href="https://www.npmjs.com/package/ts-template" target="_blank">
     <img alt="Version" src="https://img.shields.io/npm/v/ts-template.svg">
@@ -8,7 +8,7 @@
   </a>
 </p>
 
-> A boilerplate to typescript projects
+> {{ description }}
 
 ## Setup
 
@@ -25,12 +25,12 @@ npx degit edgardleal/typescript-boilerplate name-of-project
 ## Run tests
 
 ```sh
-yarn run test
+yarn test
 ```
 
 ## Author
 
-👤 **Edgard Leal**
+👤 ** {{ author }} **
 
 * Website: https://github.com/edgardleal
 * Github: [@edgardleal](https://github.com/edgardleal)

@@ -8,5 +8,10 @@
      "type": "input",
      "name": "project",
      "message": "Project names"
+   },
+   {
+     "type": "input",
+     "name": "description",
+     "message": "Project description"
    }
 ]
